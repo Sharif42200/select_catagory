@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <!-- tailwind and daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <main class="bg-gradient-to-r from-violet-500 to-fuchsia-500">
+        <div class="container mx-auto min-h-screen flex flex-col justify-center items-center gap-5">
+            <h2 class="text-5xl font-semibold text-center text-rose-950">Select Category</h2>
+            <select class="select w-full max-w-xs">
+                <option disabled selected>Pick your favorite language</option>
+                <option>PHP</option>
+                <option>JavaScript</option>
+                <option>Java</option>
+                <option>Go</option>
+                <option>C</option>
+                <option>C#</option>
+                <option>C++</option>
+                <option>Rust</option>
+                <option>Python</option>
+            </select>
+            <button class="btn bg-black text-white border-none">Submit</button>
+        </div>
+    </main>
+</body>
+
+</html>
